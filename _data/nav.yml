@@ -1,0 +1,21 @@
+- link: /computadores
+  title: Computadores
+  icon: desktop
+
+- link: /smartfones
+  title: Smartfones
+  icon: cellphone
+
+- link: /impressoras
+  title: Impressoras
+  icon: printer
+
+- link: /diversos
+  title: Diversos
+  icon: folder
+
+- link: "mailto:info@nenexclusive.com"
+  icon: envelope
+
+- link: https://www.facebook.com/NeneXclusives/
+  icon: facebook
