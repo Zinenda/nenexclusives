@@ -1,8 +1,8 @@
 <div class="card hoverable grey-text text-darken-4">
     <div class="card-image">
-        <img src="{{ item.image }}" alt="{{ item.brand }} - {{ item.model }}">
+        <img src="{{ item.image }}" alt="{{ item.title }}">
         <button class="btn-floating btn-large halfway-fab waves-effect waves-light snipcart-add-item"
-        data-item-name="{{ item.model }}"
+        data-item-name="{{ item.title }}"
         data-item-id="{{ item.sku }}"
         data-item-image="{{ item.image }}"
         data-item-url="{{ item.url }}"
@@ -12,10 +12,13 @@
     </div>
 
     <div class="card-content">
-        <div class="valign-wrapper">
-            <span class="card-title"><strong>{{ item.brand }}</strong></span>
-            <em>{{ item.model }}</em> <br>
-            {{ item.price }} MZN
+        <div class="center">
+            <span class="title">
+                <strong>{{ item.title }}</strong>
+            </span>
+            <p>
+                <em>{{ item.price }} MZN</em>
+            </p>
         </div>
     </div>
 </div>
