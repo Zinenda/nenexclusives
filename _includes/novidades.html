@@ -1,0 +1,9 @@
+<section class="section">
+    <div class="row">
+        <div class="owl-carousel owl-theme owl-nav">
+            {% for item in site.diversos limit: 12 %}
+                {% include cards-loop %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

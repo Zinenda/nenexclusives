@@ -1,9 +1,12 @@
 <header class="page-header">
     <img src="{{ page.image }}" alt="{{ page.title }}">
     
-    <div class="page-title container center">
-        <h2>{{ page.title }}</h2>
-        <h3>{{ page.description }}</h3>
-        <a href="mailto:{{ site.email }}" title="Contacte-nos!" class="btn-large waves-effect waves-light">Contacte-nos!</a>
+    <div class="page-title container">
+        <div class="valign-wrapper">
+            <img src="{{ site.image }}" alt="{{ site.title }}" style="width: 300px;">
+            <h2>{{ page.title }}</h2>
+            <h3>{{ page.description }}</h3>
+            {% include cta.html %}
+        </div>
     </div>
 </header>

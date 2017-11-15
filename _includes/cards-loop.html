@@ -1,0 +1,14 @@
+<div class="card hoverable grey-text text-darken-4">
+    <div class="card-image">
+        <img src="{{ item.image }}" alt="{{ item.brand }} - {{ item.model }}">
+        <button class="btn-floating btn-large halfway-fab waves-effect waves-light"><i class="fa fa-2x fa-cart-plus"></i></button>
+    </div>
+
+    <div class="card-content">
+        <div class="valign-wrapper">
+            <span class="card-title"><strong>{{ item.brand }}</strong></span>
+            <em>{{ item.model }}</em> <br>
+            {{ item.price }}
+        </div>
+    </div>
+</div>
