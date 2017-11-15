@@ -57,3 +57,7 @@ image: /assets/img/favicons/logotype.svg
 logo: /assets/img/favicons/logo.svg
 
 color: "#ff0844"
+
+sass:
+  sass_dir: /assets/_sass
+  style: compressed

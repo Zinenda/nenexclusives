@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import "variables";
+
+.primary-color {
+    background: $primary-color;
+}
+
+.primary-color-text {
+    color: $primary-color;
+}
+
+.primary-color-light {
+    background: $primary-color-light;
+}
+
+.primary-color-dark {
+    background: $primary-color-dark;
+}
+
+.page-footer {
+    i,
+    .btn-flat {
+        color: #fff;
+    }
+}
+
+.page-header {
+    position: relative;
+    
+    .page-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@import
+    "base",
+    "animate-bottom",
+    "materialize/materialize",
+    "owl.carousel/owl.carousel",
+    "owl.carousel/owl.theme.default",
+    "font-awesome/font-awesome"
+;
