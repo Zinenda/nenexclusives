@@ -4,7 +4,9 @@
             <div class="col s12 m4 l4 center-on-small-only">
                 <h2>Produtos</h2>
                 <ul>
-                    {% include nav.html %}
+                    {% for item in site.data.nav %}
+                        <li>{{ item.title }}</li>
+                    {% endfor %}
                 </ul>
             </div>
 
@@ -20,7 +22,9 @@
         </div>
     </div>
 
-    <div class="copyright-footer">
-        &copy; {{ site.time | %Y }} Todos Diretios Reservados  {{ site.title }} - {{ site.description }} | Powered by <a href="http://izitag.site" rel="author" target="_blank">IZItag</a> 
+    <div class="footer-copyright">
+        <div class="center">
+            &copy; {{ site.time | date: "%Y" }} Todos Diretios Reservados |  {{ site.title }} - {{ site.description }} | Powered by <a class="white-text" href="http://izitag.site" rel="author" target="_blank">IZItag</a>
+        </div> 
     </div>
 </footer>

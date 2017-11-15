@@ -4,11 +4,11 @@
 
 - link: /smartfones
   title: Smartfones
-  icon: cellphone
+  icon: mobile
 
 - link: /impressoras
   title: Impressoras
-  icon: printer
+  icon: print
 
 - link: /diversos
   title: Diversos

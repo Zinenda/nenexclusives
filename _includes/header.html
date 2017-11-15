@@ -2,10 +2,11 @@
     <img src="{{ page.image }}" alt="{{ page.title }}">
     
     <div class="page-title container">
-        <div class="valign-wrapper">
-            <img src="{{ site.image }}" alt="{{ site.title }}" style="width: 300px;">
-            <h2>{{ page.title }}</h2>
-            <h3>{{ page.description }}</h3>
+        <div class="center">
+            <div class="hide-on-small-only">
+                <img src="{{ site.image }}" alt="{{ site.title }}" style="width: 300px;">
+                <h2>{{ page.title }}</h2>
+            </div>
             {% include cta.html %}
         </div>
     </div>
