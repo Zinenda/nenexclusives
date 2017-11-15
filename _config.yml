@@ -2,6 +2,7 @@ title: Nene Xclusives
 email: info@nenexclusive.com
 description: Online Store for Eletronics Stuff
 url: "nenexclusives.com"
+author: Ivo Zinenda
 
 # Build settings
 markdown: kramdown
@@ -51,3 +52,8 @@ collections:
   smartfones:
   impressoras:
   diversos:
+
+image: /assets/img/favicons/logotype.svg
+logo: /assets/img/favicons/logo.svg
+
+color: "#ff0844"

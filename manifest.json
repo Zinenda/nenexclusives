@@ -1,0 +1,12 @@
+{
+  "name": "{{ site.title }}",
+  "short_name": "NX",
+  "icons": [{
+        "src": "{{ site.logo }}",
+        "sizes": "128x128",
+        "type": "image/svg"
+      }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "{{ site.color }}"
+}
