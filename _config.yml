@@ -24,3 +24,30 @@ exclude:
    - vendor/gems/
    - vendor/ruby/
    - bower_components
+
+defaults:
+- scope:
+    path: ""
+    type: products
+  values:
+    title: ""
+    image: ""
+    price: 0.0
+    sku: ""
+    weight: 0.0
+    layout: page
+
+- scope:
+    path: ""
+    type: pages
+  values:
+    title: ""
+    description:
+    image: ""
+    layout: default
+
+collections:
+  computatadores:
+  smartfones:
+  impressoras:
+  diversos:
