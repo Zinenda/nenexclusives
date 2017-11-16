@@ -1,11 +1,11 @@
-<header class="page-header">
+<header class="page-header white-text">
     <img src="{{ page.image }}" alt="{{ page.title }}">
     
     <div class="page-title container">
         <div class="center">
             <div class="hide-on-small-only">
-                <img src="{{ site.image }}" alt="{{ site.title }}" style="width: 300px;">
-                <h2>{{ page.title }}</h2>
+                <a href="/" title="{{ site.title }}"><img src="{{ site.image }}" alt="{{ site.title }}" style="width: 300px;"></a>
+                <h2 style="text-shadow: 2px -2px #444;">{{ page.title }}</h2>
             </div>
             {% include cta.html %}
         </div>
