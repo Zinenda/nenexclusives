@@ -4,7 +4,13 @@
     <div class="page-title container">
         <div class="center">
             <div class="hide-on-small-only">
-                <a href="/" title="{{ site.title }}"><img src="{{ site.image }}" alt="{{ site.title }}" style="width: 300px;"></a>
+                <a href="/" title="{{ site.title }}">
+                    {% if page.title == "Novidades" %}
+                        <img src="{{ site.image }}" alt="{{ site.title }}" style="width: 300px;">
+                        {% else %}
+                        <img src="/assets/img/favicons/white-logo.svg" alt="{{ site.title }}" style="width: 300px;">
+                    {% endif %}
+                </a>
                 <h2 style="text-shadow: 2px -2px #444;">{{ page.title }}</h2>
             </div>
             {% include cta.html %}
