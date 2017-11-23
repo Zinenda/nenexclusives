@@ -6,16 +6,14 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: image
-  label: Image
-  type: text
-  hidden: false
-  default: ''
 - name: price
   label: Price
   type: text
   hidden: false
-  default: 0.0
+  default: 0
+- type: file
+  name: image
+  label: Image
 - name: sku
   label: Sku
   type: text
@@ -25,7 +23,7 @@ fields:
   label: Weight
   type: text
   hidden: false
-  default: 0.0
+  default: 0
 - name: layout
   label: Layout
   type: text
