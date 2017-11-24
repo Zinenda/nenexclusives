@@ -1,9 +1,20 @@
 ---
 title: Novidades
-image: /assets/img/bg/pexels-photo-373076.jpeg
+images: 
+    - /assets/img/bg/pexels-photo-373076.jpeg
+    - /assets/img/bg/macbook-apple-imac-computer-39284.jpeg
+    - /assets/img/bg/pexels-photo-682933.jpeg
 description:
 layout: default
 ---
+
+<header class="slider">
+    <ul class="slides">
+        {% for item in page.images limit: 3 %}
+            {% include slider-loop.html %}
+        {% endfor %}
+    </ul>
+</header>
 
 {% include novidades.html %}
 {% include computadores.html %}
