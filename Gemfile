@@ -11,6 +11,7 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'hawkins'
     gem 'jekyll-autolink_email'
+    gem 'algoliasearch-jekyll', '~> 0.9.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -12,6 +12,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-email-protect
   - jekyll-autolink_email
+  - algoliasearch-jekyll
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -63,3 +64,12 @@ color: "#ff0844"
 sass:
   sass_dir: /assets/_sass
   style: compressed
+
+# algolia
+algolia:
+  application_id: 'JBQ08JBNOR'
+  index_name:     'NeneXclusive'
+  read_only_api_key: a5236f8df79552c1b6825b9359ab6e4c
+  excluded_files:
+    - 404.html
+    - index.html
