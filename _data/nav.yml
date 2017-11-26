@@ -10,9 +10,17 @@
   title: Impressoras
   icon: print
 
-- link: /diversos
-  title: Diversos
-  icon: folder
+- link: /bolsas
+  title: Bolsas
+  icon: briefcase
+
+- link: /relogios
+  title: Relógios
+  icon: dashboard
+
+- link: /joias
+  title: Joias
+  icon: diamond
 
 - link: "mailto:info@nenexclusive.com"
   icon: envelope

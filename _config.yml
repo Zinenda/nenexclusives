@@ -33,9 +33,9 @@ defaults:
   values:
     title: ""
     image: ""
-    price: 0.0
+    price: 0.00
     sku: ""
-    weight: 0.0
+    weight: 0
     layout: page
 
 - scope:
@@ -51,7 +51,6 @@ collections:
   computatadores:
   smartfones:
   impressoras:
-  diversos:
   bolsas:
   joias:
   relogios:
