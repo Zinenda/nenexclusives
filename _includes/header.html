@@ -7,13 +7,9 @@
                     <a href="/">
                         <img src="/assets/img/favicons/white-logo.svg" alt="{{ site.title }}" style="width: 300px;">
                     </a>
-                    <form>
-                        <div class="input-field">
-                            <input id="search" type="search" required>
-                            <label class="label-icon" for="search"><i class="fa fa-search"></i></label>
-                        </div>
-                    </form>
+                    {% include search-form.html %}
                     <h4>{{ page.title }}</h4>
+                    {% include cta.html %}
                 </div>
             </div>
         </div>
