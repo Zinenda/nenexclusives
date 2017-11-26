@@ -1,0 +1,23 @@
+---
+pages:
+- index.html
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- type: file
+  name: image
+  label: Image
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: 
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: default
