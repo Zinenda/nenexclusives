@@ -69,7 +69,7 @@ sass:
 algolia:
   application_id: 'JBQ08JBNOR'
   index_name:     'NeneXclusive'
-  read_only_api_key: a5236f8df79552c1b6825b9359ab6e4c
+  api_key: a5236f8df79552c1b6825b9359ab6e4c
   excluded_files:
     - 404.html
     - index.html
