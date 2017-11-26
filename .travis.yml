@@ -6,7 +6,7 @@ before_install:
  - sudo apt-get update
  - sudo apt-get install ruby
  - bundle install
- - bundle exec jekyll algolia push
+ - bundle exec ALGOLIA_API_KEY='a5236f8df79552c1b6825b9359ab6e4c' jekyll algolia push
  - bundle exec jekyll build
 
 deploy:
