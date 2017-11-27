@@ -1,5 +1,8 @@
 ---
-hide_body: false
+pages:
+- _smartfones/samsung-galaxy-s6-edge.md
+- _computatadores/macbook-air-core-i5.md
+hide_body: true
 fields:
 - name: title
   label: Title
@@ -20,7 +23,7 @@ fields:
   hidden: false
   default: ''
 - name: weight
-  label: Weight
+  label: Quantity
   type: text
   hidden: false
   default: 0
