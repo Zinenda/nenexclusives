@@ -22,7 +22,7 @@ fields:
   hidden: false
   default: ''
 - name: weight
-  label: Weight
+  label: Quantity
   type: text
   hidden: false
   default: 0
