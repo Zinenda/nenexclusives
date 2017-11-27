@@ -54,6 +54,7 @@ collections:
   bolsas:
   joias:
   relogios:
+  perifericos:
 
 image: /assets/img/favicons/logotype.svg
 logo: /assets/img/favicons/logo.svg
