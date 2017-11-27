@@ -1,4 +1,6 @@
 ---
+pages:
+- _computatadores/macbook-air-core-i5.md
 hide_body: false
 fields:
 - name: title
