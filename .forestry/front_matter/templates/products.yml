@@ -2,7 +2,7 @@
 pages:
 - _smartfones/samsung-galaxy-s6-edge.md
 - _computatadores/macbook-air-core-i5.md
-hide_body: false
+hide_body: true
 fields:
 - name: title
   label: Title
