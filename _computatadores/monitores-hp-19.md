@@ -1,9 +1,9 @@
 ---
 title: Monitores HP 19"
-image: ''
-price: 0.0
+image: "/uploads/2017/11/28/Untitled-1.jpg"
+price: ''
 sku: ''
-weight: 0.0
+weight: ''
 layout: page
 date: 2017-11-28 16:47:49 +0000
 ---
