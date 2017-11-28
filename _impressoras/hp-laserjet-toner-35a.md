@@ -1,9 +1,9 @@
 ---
 title: HP Laserjet Toner 35A
-image: ''
-price: 0.0
-sku: ''
-weight: 0.0
+image: "/uploads/2017/11/28/35a.png"
+price: ''
+sku: toner
+weight: ''
 layout: page
 date: 2017-11-28 16:26:51 +0000
 ---
