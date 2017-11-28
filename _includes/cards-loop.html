@@ -9,13 +9,6 @@
             </span>
     </div>
     <div class="card-action">
-        <button class="btn-large halfway-fab waves-effect waves-light snipcart-add-item"
-        data-item-name="{{ item.title }}"
-        data-item-id="{{ item.sku }}"
-        data-item-image="{{ item.image }}"
-        data-item-url="{{ item.url }}"
-        data-item-price="{{ item.price }}">
-            <i class="fa fa-2x fa-cart-plus"></i> {{ item.price }}
-        </button>
+        {% include snipcart-btn.html %}
     </div>
 </div>

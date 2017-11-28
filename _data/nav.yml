@@ -10,6 +10,10 @@
   title: Impressoras
   icon: print
 
+- link: /perifericos
+  title: Perifericos
+  icon: archive
+
 - link: /bolsas
   title: Bolsas
   icon: briefcase
