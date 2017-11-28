@@ -1,6 +1,6 @@
 ---
 title: HP wireless Mouse
-image: ''
+image: "/uploads/2017/11/28/20170711_115831-1.jpg"
 price: ''
 sku: mouse
 weight: ''
