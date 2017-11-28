@@ -1,9 +1,9 @@
 ---
 title: KTS-386 Wireless Speaker
-image: ''
-price: 0.0
-sku: ''
-weight: 0.0
+image: "/uploads/2017/11/28/596d708e845463838.jpg"
+price: ''
+sku: speaker
+weight: ''
 layout: page
 date: 2017-11-28 15:04:57 +0000
 ---
