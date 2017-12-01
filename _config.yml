@@ -35,7 +35,7 @@ defaults:
     image: ""
     price: 0.00
     sku: ""
-    weight: 0
+    quantity: 0
     layout: page
 
 - scope:
@@ -49,7 +49,7 @@ defaults:
 
 collections:
   computadores:
-  smartfones:
+  smartphones:
   impressoras:
   bolsas:
   joias:
