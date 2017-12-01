@@ -1,9 +1,10 @@
-<script src="/assets/js/jquery.min.js" defer></script>
-<script src="/assets/js/materialize.min.js" defer></script>
-<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="ZDhmMDFhZjEtNDQzNi00M2Y1LWFiNjktODVjZmUxNTI0MjE0NjM2NDczODcwNzAxMDcyNTQy"></script>
-<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
-{% if page.layout == "page" %}
-    <script src="/assets/js/masonry.pkgd.min.js" defer></script>
-    <script src="/assets/js/init.js" defer></script>
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+{% if page.title == "page" %}
+    {% include snipcart.html %}
 {% endif %}
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 <script src="/assets/js/main.min.js" defer></script>
