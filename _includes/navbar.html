@@ -10,9 +10,11 @@
         </div>
 
         <div class="nav-content">
-            <a class="btn-floating btn-large halfway-fab waves-effect waves-light snipcart-checkout">
-                <i class="fa fa-shopping-cart"></i>
-            </a>
+            {% if page.layout == "page" %}
+                <a class="btn-floating btn-large halfway-fab waves-effect waves-light snipcart-checkout">
+                    <i class="fa fa-shopping-cart"></i>
+                </a>
+            {% endif %}
         </div>
     </nav>
 </div>
