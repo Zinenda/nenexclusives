@@ -3,6 +3,7 @@ email: info@nenexclusive.com
 description: Online Store for Eletronics Stuff
 url: "nenexclusives.com"
 author: Ivo Zinenda
+snipcart_api_key: ZDhmMDFhZjEtNDQzNi00M2Y1LWFiNjktODVjZmUxNTI0MjE0NjM2NDczODcwNzAxMDcyNTQy
 
 # Build settings
 markdown: kramdown
@@ -64,5 +65,3 @@ color: "#ff0844"
 sass:
   sass_dir: /assets/_sass
   style: compressed
-
-snipcart_api_key: ZDhmMDFhZjEtNDQzNi00M2Y1LWFiNjktODVjZmUxNTI0MjE0NjM2NDczODcwNzAxMDcyNTQy
